@@ -43,11 +43,14 @@ body{
     padding: 0px;
     margin: 0px;
 }
-#footer{
+footer{
    background-color: #C2BCBA;
    border: 0px;
     padding: 0px;
     margin: 0px;
+}
+footer img{
+    
 }
 .links{
     background-color: #71C3DB;
