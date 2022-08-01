@@ -50,23 +50,11 @@ footer{
     margin: 0px;
 }
 footer img{
-    
+    content-visibility:initial ;
 }
-.links{
-    background-color: #71C3DB;
-    color: aliceblue;
-    text-decoration: none;
-    margin: 10px;
-    border: 10px;
-    border-radius: 8px;
-    padding: 10px;
-    text-indent: 0px;
-    line-height: 5px;
-    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
-    }
 
 header{
-    display: inline grid;
+    display: inline ;
     color: aliceblue;}
 header img{
     padding-left: 10px;
@@ -79,7 +67,6 @@ header img{
     
 header ul{
     position:relative;
-    left: 50%;
  }
 header li{
     display: inline; 
