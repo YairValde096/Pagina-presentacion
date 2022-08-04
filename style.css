@@ -84,13 +84,14 @@
 header {
   background-color: #ECEFF1;
   position: fixed;
-  margin: 10px;
   padding: 0%;
+  
 }
 header section{
   padding-right:150em ;
-  padding-top: 1.5%;
-  background-color: #ECEFF1;}
+  background-color: #ECEFF1;
+  height: 1px}
+  
 
 #Sobre {
   background-color: #4e9382;
@@ -108,9 +109,8 @@ body {
 #space{ background-color: #4e9382;}
 
 #Sobre p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: justify;
-  /*margin: 2em 4em;*/
   margin: 3% 10%;
   color: aliceblue;
   font-family: "Century gothic";
@@ -123,6 +123,7 @@ body {
   padding-left: 2em;
   padding-bottom: 1em;
 }
+header p{display: block;}
 
 .Titulos {
   padding-left: 10%;
@@ -132,9 +133,13 @@ body {
 }
 
 .Textos {
-  padding-left: 2%;
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 3% 10%;
   color: aliceblue;
   font-family: "Century gothic";
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #Proyectos {
@@ -189,3 +194,11 @@ footer {
 footer img {
   content-visibility: initial;
 }
+#Logo{
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 45%;
+  padding-right: 45%;
+  position: fixed;
+  text-align: center; 
+   background-color: #ECEFF1;}
