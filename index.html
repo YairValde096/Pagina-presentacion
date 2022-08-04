@@ -1,42 +1,73 @@
 <!DOCTYPE html>
-
 <html lang="es">
-    <head>
-        <title>YVG</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <header>
-        <a href="Index.html"><img src="img/Logo.png" width="253" height="103"></a>
-        <a href="Index.html"> <img src="img/icon-esp.png" width="30" height="30"> </a>
-        <a href="Index.html"> <img src="img/icon-ing.png"  width="30" height="30"></a>
-        <ul>
-            <li><a href="#Sobre">Sobre mi</a></li>
-            <li><a href="#Proyectos">Proyectos</a></li>
-            <li><a href="#Contacto">Contacto</a></li>
-            <li><a href="#Certificaciones">Certificaciones</a></li>
 
-        </ul>
-    </header>
-    <body >
-        <section id="Sobre"> <h1 class="Titulos">Sobre mi</h1> <!--SECCION SOBRE MI-->
-            <hr/>
-            <div class="Textos">
-                <p>Soy un desarrollador egresado del Instituto Politécnico Nacional,  interesado en todo tipo de tecnología, enfocado especialmente en los videojuegos.Cuento con experiencia en Frontend y Backend, además de estar en constante actualización. Los lenguajes de programación que más he utilizado son Python, C++, y Java, aunque también he utilizado Scala, Javascript. Además he explorado brevemente las herramientas de la nube como Azure y Google Cloud. 
-                Me gusta aprender, por lo que estoy abierto a participar en todo tipo de proyectos, podrás encontrar más adelante evidencias de mi trabajo, así como una parte de como están construidos. 
-                Puedes ver mi CV para mayor información.
-                <p></p>
-                <a href="https://drive.google.com/file/d/1jqy36Xf9glczd-0c46sj0cJSVnQKd7Kd/view?usp=sharing" target="_blank"><button  >Consulta mi CV</button></a><!--Aqui cambiar por un archivo PDF del CV-->   
-                </p>
-            </div>
-            <div><img src="img/Foto.jpg" width="300" height="400"></div>
-        </section> 
-        <section id="Proyectos"> <h1 class="Titulos">Proyectos</h1> <!--SECCION PROYECTOS-->
-            <p class="Textos">Aqui mis participaciones más destacadas</p> 
-            <a href=""><img src="img/Proyecto_1.png" width="117" height="99" ></a>
-        </section>
-        <section id="Contacto"> <h1 class="Titulos">Contacto</h1><!--SECCION CONTACTO-->
-            <p class="Textos">¿Te gustaría que trabajaramos juntos? Enviame un mensaje o contactame por redes sociales</p>
-            <fieldset class="Textos">
+<head>
+    <title>YVG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <section>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <a href="Index.html"><img src="img/Logo.png" width="253" height="103"></a>
+                <li><a class="menu__item" href="#Sobre">Inicio</a></li>
+                <li><a class="menu__item" href="#Proyectos">Proyectos</a></li>
+                <li><a class="menu__item" href="#Contacto">Contacto</a></li>
+                <li><a class="menu__item" href="#Certificaciones">Certificaciones</a></li>
+                <li></li>
+                <a href="Index.html"> <img src="img/icon-esp.png" width="30" height="30"> </a>
+                <a href="Index.html"> <img src="img/icon-ing.png" width="30" height="30"></a>
+
+            </ul>
+        </div>
+    </section>
+</header>
+
+<body>
+    <section id=space><br><br></section>
+    <section id="Sobre">
+        <br><br>
+        <h1 class="Titulos">Sobre mi</h1>
+        <!--SECCION SOBRE MI-->
+        <p>
+            <img src="img/Foto.jpg" width="225" height="300"> Soy un desarrollador egresado del Instituto Politécnico
+            Nacional, interesado en todo tipo de tecnología, enfocado especialmente en los videojuegos.Cuento con
+            experiencia en Frontend y Backend, además de estar en constante actualización. Los lenguajes de programación
+            que más he utilizado son Python, C++, y Java, aunque también he utilizado Scala, Javascript. Además he
+            explorado brevemente las herramientas de la nube como Azure y Google Cloud.
+            Me gusta aprender, por lo que estoy abierto a participar en todo tipo de proyectos, podrás encontrar más
+            adelante evidencias de mi trabajo, así como una parte de como están construidos.
+            Puedes ver mi CV para mayor información.</br>
+            <br><a href="https://drive.google.com/file/d/1jqy36Xf9glczd-0c46sj0cJSVnQKd7Kd/view?usp=sharing"
+                target="_blank"><button>Consulta mi CV</button></a>
+            <!--Aqui cambiar por un archivo PDF del CV-->
+        </p>
+        <p><br><br><br><br></p>
+
+    
+    </section>
+    <section id="Proyectos">
+        <h1 class="Titulos">Proyectos</h1>
+        <!--SECCION PROYECTOS-->
+        <p class="Textos">Aqui mis participaciones más destacadas</p>
+        <div><a href=""><img src="img/Proyecto_1.png" alt="Proyecto IA"></a></div>
+        <div><a href=""><img src="img/Proyecto_2.PNG" ></a></div>
+        <div><a href=""><img src="img/Proyecto_3.PNG" ></a></div>
+        <div><a href=""><img src="img/Proyecto_4.png" ></a></div>
+        
+        <a href="">Ver mas </a>
+        <p><br></p>
+    </section>
+    <section id="Contacto">
+        <h1 class="Titulos">Contacto</h1>
+        <!--SECCION CONTACTO-->
+        <p class="Textos">¿Te gustaría que trabajaramos juntos? Enviame un mensaje o contactame por redes sociales</p>
+        <fieldset class="Textos">
             <legend>Ingresa tus datos</legend>
             <form action="">
                 <input type="text" placeholder="Ingresa tu nombre">
@@ -49,14 +80,27 @@
                 </br>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
                 <input type="submit" value="Aceptar">
-              </form>
-        </section>
-        </fieldset>
-        <section id="Certificaciones" class="Titulos"><h1>Certificaciones</h1> <!--SECCION CERTIFICACIONES-->
-        </section>
-    </body>
-    <footer >
-<img src="img/YVG.png" width="83" height="72" >
-2022.Todos los derechos reservados.
-    </footer>
+            </form>
+    </section>
+    </fieldset>
+    <section id="Certificaciones">
+        <h1 class="Titulos">Certificaciones</h1>
+        <a href="https://www.udemy.com/certificate/UC-334a070b-2cb0-4928-a4b5-e27e2c9eeae6/"> <img src="img/Certificado_1.jpg"> </a>
+        <a href="https://www.udemy.com/certificate/UC-4f410ec4-3dd6-47e4-ac79-ec8470a4bba4/"> <img src="img/Certificado_2.jpg"> </a>
+        <a href="https://capacitateparaelempleo.org/verifica/8ovo9fcq0/"> <img src="img/Certificado_3.JPG"> </a>
+        <a href="https://capacitateparaelempleo.org/verifica/eoi37r1ne/"> <img src="img/Certificado_4.JPG"> </a>
+        <a href="https://capacitateparaelempleo.org/verifica/a9wtagq6b/"> <img src="img/Certificado_5.JPG"> </a>
+        <a href="https://coursera.org/share/c718860d1add17122606a8cab505f715"> <img src="img/Certificado_6.JPG"> </a>
+        <a href="https://coursera.org/share/1d055a315b41045a5d731932aca0878e"> <img src="img/Certificado_7.JPG"> </a>
+        <a href="https://coursera.org/share/db8cdd66a77d9d439e1e42f3ae4bc637"> <img src="img/Certificado_8.JPG"> </a>
+        <a href="https://conocer.gob.mx/RENAP/certificaciones"> <img src="img/Certificado_9.jpg"> </a>
+        <!--SECCION CERTIFICACIONES-->
+
+    </section>
+</body>
+<footer>
+    <img src="img/YVG.png" width="83" height="72">
+    2022.Todos los derechos reservados.
+</footer>
+
 </html>

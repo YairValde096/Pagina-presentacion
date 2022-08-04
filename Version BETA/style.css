@@ -1,0 +1,96 @@
+#Sobre{
+    background-color: #4e9382;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    border: 10px;
+    margin: 0px;
+    display:grid ;
+}
+.Titulos{
+    padding-left: 5%;
+    color: #4a5f52;
+    font-weight: bold;
+    font-family: "Century gothic";
+}
+.Textos{
+    padding-left: 2%;
+    color:aliceblue ;
+    font-family: "Century gothic";
+}
+    
+#Proyectos{
+   background-color: #8dbca9;
+   border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+#Contacto {
+   background-color:  #64826f;
+   border: 0px;
+   border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+#Certificaciones{
+    background-color: #4e9382;
+    border: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+   background-color: #C2BCBA;
+   border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+footer img{
+    content-visibility:initial ;
+}
+
+header{
+    display: inline ;
+    color: aliceblue;}
+
+header img{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0% ;
+    align-items: start;
+}
+
+header li{
+    display: inline-block; 
+    background-color: #71C3DB;
+    text-decoration: none;
+    object-position: right;
+    margin: 5px;
+    border: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    text-indent: 0px;
+    line-height: 5px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    transform: translateX(10em)
+}
+header li:hover{
+    color: aliceblue;
+    background-color: #717cdb;
+    font-size: 20px; 
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 6);
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+header div{
+    display: inline-block;
+    margin: 10px;
+    max-width: 50%;
+    align-items:flex-end ;
+}
