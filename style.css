@@ -22,7 +22,7 @@
 
 .menu__btn {
   position: fixed;
-  top: 20px;
+  top: 33px;
   left: 20px;
   width: 26px;
   height: 26px;
@@ -86,12 +86,16 @@ header {
   position: fixed;
   padding: 0%;
   
+  
 }
+header a{text-decoration: none;}
 header section{
   padding-right:150em ;
   background-color: #ECEFF1;
   height: 1px}
-  
+header img{
+  margin-left: 5%;
+}
 
 #Sobre {
   background-color: rgb(78, 147, 130);
@@ -100,7 +104,9 @@ header section{
   margin: 0px;
 
 }
-
+@media screen {
+  
+}
 body {
   border: 10px;
   margin: 0px;
@@ -166,6 +172,7 @@ height: 100%;
  width: 100%;
  box-shadow: 3px 5px 4px #333;
 object-fit: fill;
+border-radius: 8px ;
 }
 
 #Proyectos div{
