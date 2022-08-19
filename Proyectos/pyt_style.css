@@ -6,7 +6,7 @@ body{
 .Flex{
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 100px;
 
 }
 .Imagen{
@@ -16,18 +16,25 @@ body{
     object-position: center center;
     padding: 1em;
     border: 2px solid whitesmoke;
+    background-color: aliceblue;
 }
 .Imagen img{
     width: 100%;
     height: auto;
 }
-.Desc{width: 32%;
-    height: auto;
-    border: 2px solid whitesmoke;}
-.Tool{
-    width: 32%;
-    height: auto;
+.Desc{width: 60%;
+    background-color: aliceblue;
+    padding-left: 1em;
+    padding-right: 1em;
     border: 2px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: justify;
+    color: gray;
+    font-family: "Century gothic";
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 40%);
+}
 
-
+.Desc img{
+    width: 100px;
+    height: 100px;
 }
