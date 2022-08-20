@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: 100px;
-
+    justify-content: center;
 }
 .Imagen{
     width: 475px;
