@@ -188,7 +188,6 @@ footer img {
 iframe {
   width: -webkit-fill-available;
   height: fit-content;
-  margin: 25px;
   height: 600px;
   margin-top: 0px;
   border-width: 2px;
@@ -196,11 +195,11 @@ iframe {
 }
 
 .select_menu {
-  display: initial;
-  list-style-type: none;
-  margin: 0px;
-  background-color: #333;
-  border: solid blue;
+  display: inline-block;
+  margin-bottom: 0px;
+  background-color: aliceblue;
+  border: solid 1px gray;
+  padding: 1em;
 }
 .select_menu input{
 border-left: solid #003332;
@@ -239,4 +238,18 @@ select {
   border-style: inset;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
+}
+select{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-bottom: 0px;
+    background-color: gray;
+    border: solid 1px aliceblue;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+#Contenedor{
+  margin: 25px;
 }
