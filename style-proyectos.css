@@ -138,11 +138,13 @@ header p {
 }
 
 .Textos {
-  font-size: 1.5em;
+  
   text-align: justify;
   margin: 3% 10%;
   color: aliceblue;
   font-family: "Century gothic";
+  font-size: 1.5em;
+  text-shadow: 3px 1px 3px rgb(1 0 0 / 80%);
   padding-left: 2em;
   padding-right: 2em;
   text-shadow: 3px 1px 3px rgb(1 0 0 / 80%);
@@ -155,6 +157,7 @@ body {
   margin: 0px;
   text-align: center;
   display: block;
+  
 
 }
 
@@ -193,13 +196,22 @@ iframe {
   border-width: 2px;
   border-style: groove;
 }
+@media screen and (max-width: 1000px) {
+  iframe {
+    height: 1300px;
+  }
+}
 
 .select_menu {
   display: inline-block;
-  margin-bottom: 0px;
-  background-color: aliceblue;
-  border: solid 1px gray;
-  padding: 1em;
+  margin-bottom: 2px;
+  background-color: cadetblue;
+  border: solid 1px #8dbca9;
+  padding: 0.5em;
+  color: aliceblue;
+  font-family: "Century gothic";
+  font-size: 1.5em;
+  text-shadow: 3px 1px 3px rgb(1 0 0 / 80%);
 }
 .select_menu input{
 border-left: solid #003332;
@@ -211,45 +223,23 @@ p {
   border-top: 0px;
   border-bottom: 0px;
 }
-
-select {
-  padding: 0px;
-}
-
-.btn_scn {
-  writing-mode: horizontal-tb !important;
-  text-rendering: auto;
-  color: fieldtext;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: auto;
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  background-color: field;
-  margin: 0em;
-  padding: 1px 2px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
-}
 select{
   width: 100%;
   text-align: center;
   display: block;
-  margin-bottom: 0px;
-    background-color: gray;
+  margin-top: -2px;
+    background-color: #033453;
     border: solid 1px aliceblue;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-
+    color: aliceblue;
+    font-family: "Century gothic";
+    font-size: 1.5em;
+    text-shadow: 3px 1px 3px rgb(1 0 0 / 80%);
 }
 #Contenedor{
   margin: 25px;
+}
+#Opciones{
+  width: 100%;
 }

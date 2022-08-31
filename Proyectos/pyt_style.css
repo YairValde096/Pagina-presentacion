@@ -8,6 +8,7 @@ body{
     flex-wrap: wrap;
     margin: 100px;
     justify-content: center;
+    margin-top: 0%;
 }
 .Imagen{
     width: 475px;
@@ -40,4 +41,12 @@ body{
 }
 p{
     margin-bottom:0px;
+}
+
+h1{
+    font-family: "Century gothic";
+}
+
+html{
+    overflow-x: hidden;
 }
