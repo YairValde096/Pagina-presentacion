@@ -104,7 +104,18 @@ header img{
   margin: 0px;
 
 }
+#Foto_p{
+  width: 225px;
+  height: 300px;
+}
 
+@media screen and (max-width: 1000px) {
+  #Foto_p{
+    width: 600px;
+    height: 800px;
+    float: none;
+  }
+}
 body {
   border: 10px;
   margin: 0px;
