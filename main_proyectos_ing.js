@@ -6,20 +6,20 @@ document.getElementById('Opciones').onclick = function () {
     console.log(Chose);
     switch (selected.value) {
         case "0": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="aki_ing">Who is this animal?</option><option value="tienda_ing">Store management</option><option value="carros_ing">Car data analysis</option><option value="consultorio_ing">Medical office database</option><option value="videojuegos_ing">IDEA Methodology</option><option value="CV_ing">Personal website</option>';
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="aki_ing">Who is this animal?</option><option value="tienda_ing">Store management</option><option value="carros_ing">Car data analysis</option><option value="consultorio_ing">Medical office database</option><option value="videojuegos_ing">IDEA Methodology</option><option value="CV_ing">Personal website</option>';
             
             break;
         }
         case "1": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="aki_ing">Who is this animal?</option><option value="tienda_ing">Store management</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="aki_ing">Who is this animal?</option><option value="tienda_ing">Store management</option>'
             break;
         }
         case "2": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="CV_ing">Personal website</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="CV_ing">Personal website</option>'
             break;
         }
         case "3": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="consultorio_ing">Medical office database</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="consultorio_ing">Medical office database</option>'
             break;
         }
         case "4": {
@@ -27,15 +27,15 @@ document.getElementById('Opciones').onclick = function () {
             break;
         }
         case "5": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="carros_ing">Car data analysis</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="carros_ing">Car data analysis</option>'
             break;
         }
         case "6": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="videojuegos_ing">IDEA Methodology</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="videojuegos_ing">IDEA Methodology</option>'
             break;
         }
         case "7": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing">Select the project</option><option value="videojuegos_ing">IDEA Methodology</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD_ing"selected="true" disabled="disabled">Select the project</option><option value="videojuegos_ing">IDEA Methodology</option>'
             break;
         }
         case "8": {
