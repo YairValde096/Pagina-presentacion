@@ -1,3 +1,23 @@
+let URLactual = window.location.href;
+console.log(URLactual);
+switch (URLactual) {
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos_ing.html#1": {
+        document.getElementById("scn").src = "Proyectos/pyt_back_aki_ing.html";
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos_ing.html#2": {
+        document.getElementById("scn").src = "Proyectos/pyt_data_carros_ing.html";;
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos_ing.html#3": {
+        document.getElementById("scn").src = "Proyectos/pyt_back_tienda_ing.html";
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos_ing.html#3": {
+        document.getElementById("scn").src = "Proyectos/pyt_database_consultorio_ing.html";
+        break;
+    }
+}
 document.getElementById('Opciones').onclick = function () {
     let radios = document.getElementsByClassName("btn_scn");
     let selected = Array.from(radios).find(radio => radio.checked);
