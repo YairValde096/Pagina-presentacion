@@ -1,3 +1,24 @@
+let URLactual = window.location.href;
+console.log(URLactual);
+switch (URLactual) {
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos.html#1": {
+        document.getElementById("scn").src = "Proyectos/pyt_back_aki.html";
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos.html#2": {
+        document.getElementById("scn").src = "Proyectos/pyt_data_carros.html";;
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos.html#3": {
+        document.getElementById("scn").src = "Proyectos/pyt_back_tienda.html";
+        break;
+    }
+    case "https://yairvalde096.github.io/Pagina-presentacion/Proyectos.html#4": {
+        document.getElementById("scn").src = "Proyectos/pyt_database_consultorio.html";
+        break;
+    }
+}
+let muestrapantalla = "";
 document.getElementById('Opciones').onclick = function () {
     let radios = document.getElementsByClassName("btn_scn");
     let selected = Array.from(radios).find(radio => radio.checked);
@@ -6,20 +27,20 @@ document.getElementById('Opciones').onclick = function () {
     console.log(Chose);
     switch (selected.value) {
         case "0": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="aki">¿Quien es este animal?</option><option value="tienda">Gestor de tienda</option><option value="carros">Análisis de automoviles</option><option value="consultorio">Base de datos de consultorio</option><option value="videojuegos">Metodologia IDEA</option><option value="CV">Pagina Web personal</option>';
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="aki">¿Quien es este animal?</option><option value="tienda">Gestor de tienda</option><option value="carros">Análisis de automoviles</option><option value="consultorio">Base de datos de consultorio</option><option value="videojuegos">Metodologia IDEA</option><option value="CV">Pagina Web personal</option>';
             
             break;
         }
         case "1": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="aki">¿Quien es este animal?</option><option value="tienda">Gestor de tienda</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="aki">¿Quien es este animal?</option><option value="tienda">Gestor de tienda</option>'
             break;
         }
         case "2": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="CV">Pagina Web personal</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="CV">Pagina Web personal</option>'
             break;
         }
         case "3": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="consultorio">Base de datos de consultorio</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="consultorio">Base de datos de consultorio</option>'
             break;
         }
         case "4": {
@@ -27,15 +48,15 @@ document.getElementById('Opciones').onclick = function () {
             break;
         }
         case "5": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="carros">Análisis de automoviles</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="carros">Análisis de automoviles</option>'
             break;
         }
         case "6": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="videojuegos">Metodología IDEA</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="videojuegos">Metodología IDEA</option>'
             break;
         }
         case "7": {
-            document.getElementById("sel_pyt").innerHTML = '<option value="PD">Selecciona el proyecto</option><option value="videojuegos">Metodología IDEA</option>'
+            document.getElementById("sel_pyt").innerHTML = '<option value="PD"selected="true" disabled="disabled">Selecciona el proyecto</option><option value="videojuegos">Metodología IDEA</option>'
             break;
         }
         case "8": {
