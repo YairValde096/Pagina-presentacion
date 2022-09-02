@@ -115,6 +115,8 @@ header img{
     height: 800px;
     float: none;
   }
+  #btns {
+    font-size: 2em;}
 }
 body {
   border: 10px;
