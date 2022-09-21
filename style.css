@@ -303,12 +303,59 @@ footer img {
   }
 .Intermedio1{
   background-image: linear-gradient(0deg , #8dbca9, rgb(78, 147, 130));
+  border: none;
 }
 .Intermedio2{
-  
+  border: none;
   background-image: linear-gradient(0deg , rgb(78, 147, 130), #8dbca9);
 }
 .Intermedio3{
+  border: none;
   background-image: linear-gradient(0deg ,#64826f, #4e9382);
+}
+
+/*Pruebas de animaciones */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+  100% {
+    opacity: 0;
+ 
+  }
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+  100% {
+    opacity: 0;
+
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode:both ;
 }
 
