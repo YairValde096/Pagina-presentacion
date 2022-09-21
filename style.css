@@ -301,5 +301,14 @@ footer img {
     border-width: 2px;
     border-style: groove;
   }
- 
+.Intermedio1{
+  background-image: linear-gradient(0deg , #8dbca9, rgb(78, 147, 130));
+}
+.Intermedio2{
+  
+  background-image: linear-gradient(0deg , rgb(78, 147, 130), #8dbca9);
+}
+.Intermedio3{
+  background-image: linear-gradient(0deg ,#64826f, #4e9382);
+}
 
