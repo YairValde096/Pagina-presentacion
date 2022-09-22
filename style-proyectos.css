@@ -189,9 +189,9 @@ footer img {
 }
 
 iframe {
-  width: -webkit-fill-available;
+  width: -webkit-fill-available ;
   height: fit-content;
-  height: 600px;
+  height: 550px;
   margin-top: 0px;
   border-width: 2px;
   border-style: groove;
@@ -238,7 +238,7 @@ select{
     text-shadow: 3px 1px 3px rgb(1 0 0 / 80%);
 }
 #Contenedor{
-  margin: 25px;
+  margin: 4em;
 }
 #Opciones{
   width: 100%;

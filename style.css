@@ -27,7 +27,7 @@
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
 }
 
 .menu__btn>span,
@@ -135,7 +135,7 @@ body button{
 #space{ background-color: rgb(78, 147, 130);}
 
 #Sobre p {
-  font-size: 1.5em;
+  font-size: 1.9em;
   text-align: justify;
   margin: 3% 10%;
   color: aliceblue;
@@ -153,13 +153,13 @@ body button{
 header p{display: block;}
 
 .Titulos {
-  padding-left: 10%;
+  padding-top: 50px;
   color: #003332;
   font-weight: bold;
   font-family: "Century gothic";
   font-size: 2.5em;
   text-shadow: 2px 2px 4px rgb(0 0 0 / 20%);
-  text-align: initial;
+  text-align: center;
 }
 
 .Textos {
@@ -180,7 +180,7 @@ header p{display: block;}
   margin: 0px;
   text-align: center;   
 }
-#Proyectos div{
+.Contenedorimg{
   display: inline-block;
   margin: 5%;
   height: 22.5em;
@@ -202,39 +202,11 @@ border-radius: 8px ;
   padding: 0px;
   margin: 0px;
 }
-#Contacto fieldset{
-  background-color: #ECEFF1;
-  width: 60%;
-  border-style: none;
-  display: inline-block;
-  
-}
-#Contacto fieldset legend{
-  background-color: #ECEFF1 ;
-   width: 100%; 
-   text-align: center;
-   color: rgb(113, 113, 113);
-   text-shadow: none;
-   padding-bottom: 0.5em;
-   font-style: italic;
-   border: solid;
-  }
-#Contacto fieldset .datos{ 
-  font-size: 1em;
-  margin: 1%;
-  font-style: italic;
-  border-radius: 8px;
-  width: 100%;
-}
-#Contacto fieldset .btn{
-  font-size: 1em;
-    background-color: #ECEFF1;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 3px 5px 4px #333;
-    padding: 4px 10px;
-}
-#Contacto div{display: flex;}
+
+.enlacecontacto {display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  padding-bottom: 3em;}
 
 #Contacto ul{
   list-style-type: none;
@@ -307,55 +279,9 @@ footer img {
 }
 .Intermedio2{
   border: none;
-  background-image: linear-gradient(0deg , rgb(78, 147, 130), #8dbca9);
+  background-image: linear-gradient(0deg , #4e9382, #8dbca9);
 }
 .Intermedio3{
   border: none;
   background-image: linear-gradient(0deg ,#64826f, #4e9382);
 }
-
-/*Pruebas de animaciones */
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  
-  }
-
-  50% {
-    opacity: 1;
-
-  }
-  100% {
-    opacity: 0;
- 
-  }
-}
-
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-
-  }
-
-  50% {
-    opacity: 1;
-
-  }
-  100% {
-    opacity: 0;
-
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-.animated {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode:both ;
-}
-
